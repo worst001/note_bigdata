@@ -47,7 +47,22 @@
 ## Hadoop
 
 ### 参考文档
+
 [Hadoop 随堂笔记](Hadoop/Hadoop 随堂笔记.md)
+
+[大数据概论](Hadoop/笔记/01_尚硅谷大数据技术之大数据概论.pdf)
+
+[Hadoop_入门](Hadoop/笔记/02_尚硅谷大数据技术之Hadoop（入门）V3.3.pdf)
+
+[Hadoop_HDFS](Hadoop/笔记/03_尚硅谷大数据技术之Hadoop（HDFS）V3.3.pdf)
+
+[Hadoop_MapReduce](Hadoop/笔记/04_尚硅谷大数据技术之Hadoop（MapReduce）V3.3.pdf)
+
+[Hadoop_Yarn](Hadoop/笔记/05_尚硅谷大数据技术之Hadoop（Yarn）V3.3.pdf)
+
+[Hadoop_生产调优手册](Hadoop/笔记/06_尚硅谷大数据技术之Hadoop（生产调优手册）V3.3.pdf)
+
+[Hadoop_源码解析](Hadoop/笔记/07_尚硅谷大数据技术之Hadoop（源码解析）V3.3.pdf)
 
 ### 基本介绍
 
@@ -72,6 +87,28 @@ Hadoop的优势在于它的可扩展性、容错性和成本效益。通过将�
 ### 参考文档
 
 [大数据与数仓随堂笔记](数仓建设/大数据与数仓.md)
+
+[用户行为采集平台](数仓建设/笔记/尚硅谷大数据项目之尚品汇（1用户行为采集平台）V4.1.0.pdf)
+
+[业务数据采集平台](数仓建设/笔记/尚硅谷大数据项目之尚品汇（2业务数据采集平台）V4.1.0.pdf)
+
+[数据仓库系统](数仓建设/笔记/尚硅谷大数据项目之尚品汇（3数据仓库系统）V4.2.0.pdf)
+
+[可视化报表Superset](数仓建设/笔记/尚硅谷大数据项目之尚品汇（4可视化报表Superset）V4.0.pdf)
+
+[即席查询Presto&Kylin](数仓建设/笔记/尚硅谷大数据项目之尚品汇（5即席查询Presto&Kylin）V4.0.pdf)
+
+[集群监控Zabbix](数仓建设/笔记/尚硅谷大数据项目之尚品汇（6集群监控Zabbix）V4.1.pdf)
+
+[用户认证Kerberos](数仓建设/笔记/尚硅谷大数据项目之尚品汇（7用户认证Kerberos）V4.1.pdf)
+
+[安全环境实战](数仓建设/笔记/尚硅谷大数据项目之尚品汇（8安全环境实战）V4.0.pdf)
+
+[权限管理Ranger](数仓建设/笔记/尚硅谷大数据项目之尚品汇（9权限管理Ranger）V4.0.pdf)
+
+[元数据管理Atlas](数仓建设/笔记/尚硅谷大数据项目之尚品汇（10元数据管理Atlas）V4.0.pdf)
+
+[数据质量管理](数仓建设/笔记/尚硅谷大数据项目之尚品汇（11数据质量管理）V4.0.pdf)
 
 ### 基本介绍
 
@@ -102,7 +139,10 @@ Hadoop的优势在于它的可扩展性、容错性和成本效益。通过将�
 ## Hive
 
 ### 参考文档
+
 [Hive 学习笔记](Hive/Hive 学习笔记.md)
+
+[尚硅谷_Hive_技术](Hive/尚硅谷大数据技术之Hive（V4.8.0）.pdf)
 
 ### 基本介绍
 
@@ -185,7 +225,21 @@ Flume 主要用于大规模日志数据的采集和传输场景，例如应用�
 ## Spark
 
 ### 参考文档
+
 [Spark 学习笔记](Spark/Spark学习笔记.md)
+
+[SparkCore](Spark/笔记/01_尚硅谷大数据技术之SparkCore.pdf)
+
+[SparkSql](Spark/笔记/02_尚硅谷大数据技术之SparkSql.pdf)
+
+[SparkStreaming](Spark/笔记/03_尚硅谷大数据技术之SparkStreaming.pdf)
+
+[Spark内核](Spark/笔记/04_尚硅谷大数据技术之Spark内核.pdf)
+
+[Spark优化](Spark/笔记/05_尚硅谷大数据技术之Spark优化.pdf)
+
+[Spark源码](Spark/笔记/07-尚硅谷大数据技术之Spark源码.pdf)
+
 
 ### 基本介绍
 
@@ -213,7 +267,14 @@ Spark 主要应用于大规模数据处理和分析场景，例如数据清洗�
 ## Flink
 
 ### 参考文档
+
 [Flink 随堂笔记](Flink/Flink随堂笔记.md)
+
+[超详细笔记](Flink/笔记/Flink超神文档.pdf)
+
+[Flink_Java_pdf](Flink/笔记/尚硅谷大数据技术之Flink1.13（Java）.pdf)
+
+[Flink_Scala_pdf](Flink/笔记/尚硅谷大数据之Flink（Scala版）.pdf)
 
 
 ### 基本介绍
@@ -271,7 +332,16 @@ Doris 主要应用于需要实时数据分析和查询的场景，如在线报�
 ## CDH
 
 ### 参考文档
+
 [CDH 中文手册](CDH/Cloudera-Manager(中文手册).pdf)
+
+[尚硅谷_用户行为采集平台](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（1用户行为采集平台）V5.0.pdf)
+
+[尚硅谷_业务数据采集平台](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（2业务数据采集平台）V5.0.pdf)
+
+[尚硅谷_电商数据仓库系统](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（3电商数据仓库系统）V5.0.pdf)
+
+[尚硅谷_可视化报表](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（4可视化报表）.pdf)
 
 ### 基本介绍
 
