@@ -1,0 +1,119 @@
+#!/usr/bin/env bash
+__ScriptVersion="配置文件同步脚本1.0.1"
+
+#===  GLOBAL ===
+# 需要同步的目录列表
+hosts=
+dirs=
+
+#===  FUNCTION  ================================================================
+#         NAME:  usage
+#  DESCRIPTION:  Display usage information.
+#===============================================================================
+function usage ()
+{
+  echo "使用方法 :   [参数列表] [--]
+
+  选项:
+  -h|help       帮助信息
+  -H|hosts      服务器列表
+  -f|files      文件列表（可以是文件夹）
+  -v|version    查看版本
+
+  样例:
+  sh xsync.sh -H \"host1 host2\" -f \"file1 file2\"
+  "
+}
+
+#===  FUNCTION  ================================================================
+#         NAME:  getHosts
+#  DESCRIPTION:  获取服务器列表.
+#===============================================================================
+function getHosts() {
+  hosts="$*"
+  echo "服务器列表:"${hosts}
+}
+
+#===  FUNCTION  ================================================================
+#         NAME:  getDirs
+#  DESCRIPTION:  获取目录列表.
+#===============================================================================
+function getDirs() {
+  dirs="${1}"
+  echo "目录列表:"${dirs}
+}
+
+#===  FUNCTION  ================================================================
+#         NAME:  rsyncDirs
+#  DESCRIPTION:  遍历所有目录 挨个发送 以空格分割.
+#                目录使用绝对路径
+#===============================================================================
+function rsyncDirs() {
+#1. 遍历所有目录，挨个发送
+for file in ${dirs}
+do
+  #2. 判断文件是否存在
+  if [ -e $file ]
+  then
+
+  #3. 获取父目录
+  pdir=$(cd -P $(dirname $file); pwd)
+
+  #4. 获取当前文件的名称
+  fname=$(basename $file)
+
+  echo "创建根路径 $pdir"
+  ssh $host "mkdir -p $pdir"
+
+  echo "开始同步文件 $fname"
+  scp -rp $pdir/$fname $host:$pdir
+
+  else
+  echo $file does not exists!
+  fi
+done
+}
+
+#-----------------------------------------------------------------------
+#  Handle command line arguments
+#-----------------------------------------------------------------------
+if [ $# -lt 1 ]; then
+    echo -e "\n 请输入参数: \n"
+    usage; exit 1
+fi
+
+while getopts ":hH:f:v" opt
+do
+  case ${opt} in
+
+    h|help     )  usage; exit 0      ;;
+
+    H|hosts    )  getHosts ${OPTARG} ;;
+
+    f|files    )  getDirs ${OPTARG}  ;;
+
+    v|version  )  echo "$0 -- 命令版本号为 ${__ScriptVersion}"; exit 0   ;;
+
+    *          )  echo -e "\n  未知参数\n  请输入参数: \n"
+                usage; exit 1   ;;
+
+  esac    # --- end of case ---
+done
+
+#-----------------------------------------------------------------------
+#  如果设置过参数就最终执行
+#-----------------------------------------------------------------------
+
+# 如果hosts或dirs为空 抛出异常
+if [[ $hosts = "" || $dirs = "" ]]; then
+  echo -e "\n  必须指定hosts和files"
+  echo 1 ;
+fi
+
+# 遍历hosts与dirs依次同步传送
+for host in ${hosts}; do
+  echo ==================== $host ====================
+  rsyncDirs
+done
+
+shift $((OPTIND-1))
