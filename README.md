@@ -182,6 +182,8 @@
 
 [CDH 中文手册](CDH/Cloudera-Manager(中文手册).pdf)
 
+[CDH官方文档](https://docs.cloudera.com/documentation/enterprise/latest/topics/introduction.html)
+
 [尚硅谷_用户行为采集平台](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（1用户行为采集平台）V5.0.pdf)
 
 [尚硅谷_业务数据采集平台](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（2业务数据采集平台）V5.0.pdf)
@@ -226,11 +228,12 @@
 <!-- ![公众号](https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8E%E6%94%AF%E4%BB%98/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%B0%8F.jpg) -->
 
 ## 参考资料
-[https://github.com/Tinywan/lua-nginx-redis](https://github.com/Tinywan/lua-nginx-redis)
-
-[https://www.kuangstudy.com/bbs/1354069127022583809](https://www.kuangstudy.com/bbs/1354069127022583809)
 
 [尚硅谷系列教程资料](http://www.atguigu.com/opensource.shtml)
+
+[https://docs.cloudera.com/documentation](https://docs.cloudera.com/documentation)
+
+[https://github.com/bjmashibing/Flink-Study](https://github.com/bjmashibing/Flink-Study)
 
 <!-- links -->
 [your-project-path]:shaojintian/Best_README_template

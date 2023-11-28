@@ -43,7 +43,6 @@
 
 --------------------
 
-
 ## Hadoop
 
 ### 参考文档
@@ -334,6 +333,8 @@ Doris 主要应用于需要实时数据分析和查询的场景，如在线报�
 ### 参考文档
 
 [CDH 中文手册](CDH/Cloudera-Manager(中文手册).pdf)
+
+[CDH官方文档](https://docs.cloudera.com/documentation/enterprise/latest/topics/introduction.html)
 
 [尚硅谷_用户行为采集平台](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（1用户行为采集平台）V5.0.pdf)
 
