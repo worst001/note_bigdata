@@ -71,7 +71,7 @@
 
 ### 参考文档
 
-[Hadoop 随堂笔记](Hadoop/Hadoop 随堂笔记.md)
+[Hadoop_随堂笔记](Hadoop/Hadoop 随堂笔记.md)
 
 [大数据概论](Hadoop/笔记/01_尚硅谷大数据技术之大数据概论.pdf)
 
@@ -121,7 +121,7 @@
 
 ### 参考文档
 
-[Hive 学习笔记](Hive/Hive 学习笔记.md)
+[Hive_学习笔记](Hive/Hive_学习笔记.md)
 
 [尚硅谷_Hive_技术](Hive/尚硅谷大数据技术之Hive（V4.8.0）.pdf)
 
@@ -173,7 +173,7 @@
 ## Doris
 
 ### 参考文档
-[尚硅谷_Doris](Doris/笔记/尚硅谷大数据技术之Apache Doris.pdf)
+[尚硅谷_Doris](Doris/笔记/尚硅谷大数据技术之Apache_Doris.pdf)
 
 
 ## CDH
