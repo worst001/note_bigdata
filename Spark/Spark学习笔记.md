@@ -1,18 +1,6 @@
 # Spark学习笔记
 spark的一个小项目以及笔记
 
-## 参考资料
-[尚硅谷_SparkCore](笔记/01_尚硅谷大数据技术之SparkCore.pdf)
-
-[尚硅谷_SparkSql](笔记/02_尚硅谷大数据技术之SparkSql.pdf)
-
-[尚硅谷_SparkStreaming](笔记/03_尚硅谷大数据技术之SparkStreaming.pdf)
-
-[尚硅谷_Spark内核](笔记/04_尚硅谷大数据技术之Spark内核.pdf)
-
-[尚硅谷_Spark优化](笔记/05_尚硅谷大数据技术之Spark优化.pdf)
-
-[尚硅谷_Spark源码](笔记/07-尚硅谷大数据技术之Spark源码.pdf)
 
 ## 项目内容
 1. **用户访问session分析模块**

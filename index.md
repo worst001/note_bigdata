@@ -399,7 +399,7 @@ Flink 主要应用于实时数据分析、事件驱动应用、实时报表生�
 
 [官方文档](https://doris.apache.org/zh-CN/docs/dev/get-starting/what-is-apache-doris/)
 
-[尚硅谷课件资料](Doris/Direction.md)
+[Doris 课件资料](Doris/Direction.md)
 
 ### 基本介绍
 

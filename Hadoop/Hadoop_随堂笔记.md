@@ -1,19 +1,5 @@
 # Hadoop 随堂笔记
 
-## 参考资料
-[尚硅谷_大数据概论](笔记/01_尚硅谷大数据技术之大数据概论.pdf)
-
-[尚硅谷_Hadoop_入门](笔记/02_尚硅谷大数据技术之Hadoop（入门）V3.3.pdf)
-
-[尚硅谷_Hadoop_HDFS](笔记/03_尚硅谷大数据技术之Hadoop（HDFS）V3.3.pdf)
-
-[尚硅谷_Hadoop_MapReduce](笔记/04_尚硅谷大数据技术之Hadoop（MapReduce）V3.3.pdf)
-
-[尚硅谷_Hadoop_Yarn](笔记/05_尚硅谷大数据技术之Hadoop（Yarn）V3.3.pdf)
-
-[尚硅谷_Hadoop_生产调优手册](笔记/06_尚硅谷大数据技术之Hadoop（生产调优手册）V3.3.pdf)
-
-[尚硅谷_Hadoop_源码解析](笔记/07_尚硅谷大数据技术之Hadoop（源码解析）V3.3.pdf)
 
 ## HDFS
 Hadoop Distributed File System
