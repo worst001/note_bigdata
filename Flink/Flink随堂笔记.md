@@ -1,12 +1,5 @@
 # Flink 随堂笔记
 
-## 参考资料
-
-[超详细笔记](笔记/Flink超神文档.pdf)
-
-[尚硅谷_Flink_Java_pdf](笔记/尚硅谷大数据技术之Flink1.13（Java）.pdf)
-
-[尚硅谷_Flink_Scala_pdf](笔记/尚硅谷大数据之Flink（Scala版）.pdf)
 
 ## 基本概念
 

@@ -49,19 +49,24 @@
 
 [Hadoop_随堂笔记](Hadoop/Hadoop 随堂笔记.md)
 
-[大数据概论](Hadoop/笔记/01_尚硅谷大数据技术之大数据概论.pdf)
+[分布式文件存储系统 —— HDFS](BigData-Notes/notes/Hadoop-HDFS.md)
 
-[Hadoop_入门](Hadoop/笔记/02_尚硅谷大数据技术之Hadoop（入门）V3.3.pdf)
+[分布式计算框架 —— MapReduce](BigData-Notes/notes/Hadoop-MapReduce.md)
 
-[Hadoop_HDFS](Hadoop/笔记/03_尚硅谷大数据技术之Hadoop（HDFS）V3.3.pdf)
+[集群资源管理器 —— YARN](BigData-Notes/notes/Hadoop-YARN.md)
 
-[Hadoop_MapReduce](Hadoop/笔记/04_尚硅谷大数据技术之Hadoop（MapReduce）V3.3.pdf)
+[Hadoop 单机伪集群环境搭建](BigData-Notes/notes/installation/Hadoop单机环境搭建.md)
 
-[Hadoop_Yarn](Hadoop/笔记/05_尚硅谷大数据技术之Hadoop（Yarn）V3.3.pdf)
+[Hadoop 集群环境搭建](BigData-Notes/notes/installation/Hadoop集群环境搭建.md)
 
-[Hadoop_生产调优手册](Hadoop/笔记/06_尚硅谷大数据技术之Hadoop（生产调优手册）V3.3.pdf)
+[HDFS 常用 Shell 命令](BigData-Notes/notes/HDFS常用Shell命令.md)
 
-[Hadoop_源码解析](Hadoop/笔记/07_尚硅谷大数据技术之Hadoop（源码解析）V3.3.pdf)
+[HDFS Java API 的使用](BigData-Notes/notes/HDFS-Java-API.md)
+
+[基于 Zookeeper 搭建 Hadoop 高可用集群](BigData-Notes/notes/installation/基于Zookeeper搭建Hadoop高可用集群.md)
+
+[Hadoop 课件资料](Hadoop/Direction.md)
+
 
 ### 基本介绍
 
@@ -87,27 +92,7 @@ Hadoop的优势在于它的可扩展性、容错性和成本效益。通过将�
 
 [大数据与数仓随堂笔记](数仓建设/大数据与数仓.md)
 
-[用户行为采集平台](数仓建设/笔记/尚硅谷大数据项目之尚品汇（1用户行为采集平台）V4.1.0.pdf)
-
-[业务数据采集平台](数仓建设/笔记/尚硅谷大数据项目之尚品汇（2业务数据采集平台）V4.1.0.pdf)
-
-[数据仓库系统](数仓建设/笔记/尚硅谷大数据项目之尚品汇（3数据仓库系统）V4.2.0.pdf)
-
-[可视化报表Superset](数仓建设/笔记/尚硅谷大数据项目之尚品汇（4可视化报表Superset）V4.0.pdf)
-
-[即席查询Presto&Kylin](数仓建设/笔记/尚硅谷大数据项目之尚品汇（5即席查询Presto&Kylin）V4.0.pdf)
-
-[集群监控Zabbix](数仓建设/笔记/尚硅谷大数据项目之尚品汇（6集群监控Zabbix）V4.1.pdf)
-
-[用户认证Kerberos](数仓建设/笔记/尚硅谷大数据项目之尚品汇（7用户认证Kerberos）V4.1.pdf)
-
-[安全环境实战](数仓建设/笔记/尚硅谷大数据项目之尚品汇（8安全环境实战）V4.0.pdf)
-
-[权限管理Ranger](数仓建设/笔记/尚硅谷大数据项目之尚品汇（9权限管理Ranger）V4.0.pdf)
-
-[元数据管理Atlas](数仓建设/笔记/尚硅谷大数据项目之尚品汇（10元数据管理Atlas）V4.0.pdf)
-
-[数据质量管理](数仓建设/笔记/尚硅谷大数据项目之尚品汇（11数据质量管理）V4.0.pdf)
+[数仓建设课件资料](数仓建设/Direction.md)
 
 ### 基本介绍
 
@@ -141,7 +126,23 @@ Hadoop的优势在于它的可扩展性、容错性和成本效益。通过将�
 
 [Hive_学习笔记](Hive/Hive_学习笔记.md)
 
-[尚硅谷_Hive_技术](Hive/尚硅谷大数据技术之Hive（V4.8.0）.pdf)
+[Hive 简介及核心概念](BigData-Notes/notes/Hive简介及核心概念.md)
+
+[Linux 环境下 Hive 的安装部署](BigData-Notes/notes/installation/Linux环境下Hive的安装部署.md)
+
+[Hive CLI 和 Beeline 命令行的基本使用](BigData-Notes/notes/HiveCLI和Beeline命令行的基本使用.md)
+
+[Hive 常用 DDL 操作](BigData-Notes/notes/Hive常用DDL操作.md)
+
+[Hive 分区表和分桶表](BigData-Notes/notes/Hive分区表和分桶表.md)
+
+[Hive 视图和索引](BigData-Notes/notes/Hive视图和索引.md)
+
+[Hive 常用 DML 操作](BigData-Notes/notes/Hive常用DML操作.md)
+
+[Hive 数据查询详解](BigData-Notes/notes/Hive数据查询详解.md)
+
+[Hive 课件资料](Hive/Direction.md)
 
 ### 基本介绍
 
@@ -168,7 +169,30 @@ Hive 主要用于大规模数据的分析、报表生成和数据探索等场景
 ## HBase
 
 ### 参考文档
-[尚硅谷_HBase_pdf](HBase/笔记/尚硅谷大数据技术之HBase.pdf)
+
+[Hbase 简介](BigData-Notes/notes/Hbase简介.md)
+
+[HBase 系统架构及数据结构](BigData-Notes/notes/Hbase系统架构及数据结构.md)
+
+[HBase 基本环境搭建](BigData-Notes/notes/installation/HBase单机环境搭建.md)
+
+[HBase 集群环境搭建](BigData-Notes/notes/installation/HBase集群环境搭建.md)
+
+[HBase 常用 Shell 命令](BigData-Notes/notes/Hbase_Shell.md)
+
+[HBase Java API](BigData-Notes/notes/Hbase_Java_API.md)
+
+[HBase 过滤器详解](BigData-Notes/notes/Hbase过滤器详解.md)
+
+[HBase 协处理器详解](BigData-Notes/notes/Hbase协处理器详解.md)
+
+[HBase 容灾与备份](BigData-Notes/notes/Hbase容灾与备份.md)
+
+[HBase的 SQL 中间层 —— Phoenix](BigData-Notes/notes/Hbase的SQL中间层_Phoenix.md)
+
+[Spring/Spring Boot 整合 Mybatis + Phoenix](BigData-Notes/notes/Spring+Mybtais+Phoenix整合.md)
+
+[尚硅谷课件资料](HBase/Direction.md)
 
 ### 基本介绍
 
@@ -197,7 +221,14 @@ HBase 主要用于需要快速读写和海量数据存储的场景，例如实�
 ## Flume
 
 ### 参考文档
-[尚硅谷_Flume_pdf](Flume/笔记/尚硅谷大数据技术之Flume.pdf)
+
+[Flume 简介及基本使用](BigData-Notes/notes/Flume简介及基本使用.md)
+
+[Linux 环境下 Flume 的安装部署](BigData-Notes/notes/installation/Linux下Flume的安装.md)
+
+[Flume 整合 Kafka](BigData-Notes/notes/Flume整合Kafka.md)
+
+[尚硅谷课件资料](Flume/Direction.md)
 
 ### 基本介绍
 
@@ -221,24 +252,74 @@ Flume 是一个开源的分布式日志收集工具，用于可靠、高效地�
 Flume 主要用于大规模日志数据的采集和传输场景，例如应用日志收集、系统监控、事件处理等。它可以与其他数据处理工具和平台（如Hadoop、Kafka、Spark等）结合使用，构建完整的数据流处理和分析解决方案。
 
 
+## Kerbros
+
+### 参考文档
+
+[Kerbros](https://app.yinxiang.com/fx/9a5651d6-50d4-4ae1-8b74-376d04157d28)
+
+### 基本介绍
+
+Kerberos是一个网络身份验证协议，用于在计算机网络中实现安全的身份验证。它提供了一种强大的机制，以确保用户和服务之间的身份验证和通信的安全性。
+
+#### Kerberos的一些要点
++ 安全认证
+    + Kerberos通过使用加密技术，确保用户在网络上进行安全认证。它基于对称密钥加密和票据系统来验证用户的身份，并生成临时凭证（票据）供用户在网络上进行访问。
++ 三个主要角色
+    + Kerberos涉及三个主要角色：客户端、认证服务器（AS）和票据授权服务器（TGS）。客户端向AS请求访问权限并获取票据，然后使用该票据向TGS请求特定服务的票据，最后使用该票据向目标服务进行身份验证和通信。
++ 单点登录
+    + Kerberos实现了单点登录（Single Sign-On，SSO）功能，使用户可以在网络环境中使用一组凭证登录多个服务，而不需要为每个服务单独输入凭证。一旦用户通过Kerberos获得了初始票据，他们可以在整个会话中使用该票据来访问多个受保护的服务。
++ 安全性：
+    + Kerberos通过使用加密技术和令牌传递来确保通信的安全性。它使用共享密钥加密算法，确保票据的机密性，并在网络上传输使用票据进行安全通信。
++ 跨平台支持：
+    + Kerberos是一种跨平台的身份验证协议，可以在各种操作系统和应用程序中实现。它被广泛应用于企业环境中，以提供网络身份验证和访问控制。
+
+
 ## Spark
 
 ### 参考文档
 
 [Spark 学习笔记](Spark/Spark学习笔记.md)
 
-[SparkCore](Spark/笔记/01_尚硅谷大数据技术之SparkCore.pdf)
+[Spark 课件资料](Spark/Direction.md)
 
-[SparkSql](Spark/笔记/02_尚硅谷大数据技术之SparkSql.pdf)
+#### Spark Core
 
-[SparkStreaming](Spark/笔记/03_尚硅谷大数据技术之SparkStreaming.pdf)
+[Spark 简介](BigData-Notes/notes/Spark简介.md)
 
-[Spark内核](Spark/笔记/04_尚硅谷大数据技术之Spark内核.pdf)
+[Spark 开发环境搭建](BigData-Notes/notes/installation/Spark开发环境搭建.md)
 
-[Spark优化](Spark/笔记/05_尚硅谷大数据技术之Spark优化.pdf)
+[弹性式数据集 RDD](BigData-Notes/notes/Spark_RDD.md)
 
-[Spark源码](Spark/笔记/07-尚硅谷大数据技术之Spark源码.pdf)
+[RDD 常用算子详解](BigData-Notes/notes/Spark_Transformation和Action算子.md)
 
+[Spark 运行模式与作业提交](BigData-Notes/notes/Spark部署模式与作业提交.md)
+
+[Spark 累加器与广播变量](BigData-Notes/notes/Spark累加器与广播变量.md)
+
+[基于 Zookeeper 搭建 Spark 高可用集群](BigData-Notes/notes/installation/Spark集群环境搭建.md)
+
+#### Spark SQL
+
+[DateFrame 和 DataSet](BigData-Notes/notes/SparkSQL_Dataset和DataFrame简介.md)
+
+[Structured API 的基本使用](BigData-Notes/notes/Spark_Structured_API的基本使用.md)
+
+[Spark SQL 外部数据源](BigData-Notes/notes/SparkSQL外部数据源.md)
+
+[Spark SQL 常用聚合函数](BigData-Notes/notes/SparkSQL常用聚合函数.md)
+
+[Spark SQL JOIN 操作](BigData-Notes/notes/SparkSQL联结操作.md)
+
+#### Spark Streaming
+
+[Spark Streaming 简介](BigData-Notes/notes/Spark_Streaming与流处理.md)
+
+[Spark Streaming 基本操作](BigData-Notes/notes/Spark_Streaming基本操作.md)
+
+[Spark Streaming 整合 Flume](BigData-Notes/notes/Spark_Streaming整合Flume.md)
+
+[Spark Streaming 整合 Kafka](BigData-Notes/notes/Spark_Streaming整合Kafka.md)
 
 ### 基本介绍
 
@@ -267,13 +348,25 @@ Spark 主要应用于大规模数据处理和分析场景，例如数据清洗�
 
 ### 参考文档
 
-[Flink 随堂笔记](Flink/Flink随堂笔记.md)
+[Flink 随堂摘要](Flink/Flink随堂笔记.md)
 
-[超详细笔记](Flink/笔记/Flink超神文档.pdf)
+[Flink 核心概念综述](BigData-Notes/notes/Flink核心概念综述.md)
 
-[Flink_Java_pdf](Flink/笔记/尚硅谷大数据技术之Flink1.13（Java）.pdf)
+[Flink 开发环境搭建](BigData-Notes/notes/Flink开发环境搭建.md)
 
-[Flink_Scala_pdf](Flink/笔记/尚硅谷大数据之Flink（Scala版）.pdf)
+[Flink Data Source](BigData-Notes/notes/Flink_Data_Source.md)
+
+[Flink Data Transformation](BigData-Notes/notes/Flink_Data_Transformation.md)
+
+[Flink Data Sink](BigData-Notes/notes/Flink_Data_Sink.md)
+
+[Flink 窗口模型](BigData-Notes/notes/Flink_Windows.md)
+
+[Flink 状态管理与检查点机制](BigData-Notes/notes/Flink状态管理与检查点机制.md)
+
+[Flink Standalone 集群部署](BigData-Notes/notes/installation/Flink_Standalone_Cluster.md)
+
+[超详细笔记](Flink/Direction.md)
 
 
 ### 基本介绍
@@ -303,7 +396,10 @@ Flink 主要应用于实时数据分析、事件驱动应用、实时报表生�
 ## Doris
 
 ### 参考文档
-[尚硅谷_Doris](Doris/笔记/尚硅谷大数据技术之Apache_Doris.pdf)
+
+[官方文档](https://doris.apache.org/zh-CN/docs/dev/get-starting/what-is-apache-doris/)
+
+[尚硅谷课件资料](Doris/Direction.md)
 
 ### 基本介绍
 
@@ -332,17 +428,10 @@ Doris 主要应用于需要实时数据分析和查询的场景，如在线报�
 
 ### 参考文档
 
-[CDH 中文手册](CDH/Cloudera-Manager(中文手册).pdf)
 
 [CDH官方文档](https://docs.cloudera.com/documentation/enterprise/latest/topics/introduction.html)
 
-[尚硅谷_用户行为采集平台](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（1用户行为采集平台）V5.0.pdf)
-
-[尚硅谷_业务数据采集平台](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（2业务数据采集平台）V5.0.pdf)
-
-[尚硅谷_电商数据仓库系统](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（3电商数据仓库系统）V5.0.pdf)
-
-[尚硅谷_可视化报表](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（4可视化报表）.pdf)
+[CDH 课件资料](CDH/Direction.md)
 
 ### 基本介绍
 
