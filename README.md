@@ -76,13 +76,34 @@
 + [HDFS 常用 Shell 命令](BigData-Notes/notes/HDFS常用Shell命令.md)
 + [HDFS Java API 的使用](BigData-Notes/notes/HDFS-Java-API.md)
 + [基于 Zookeeper 搭建 Hadoop 高可用集群](BigData-Notes/notes/installation/基于Zookeeper搭建Hadoop高可用集群.md)
-+ [Hadoop 课件资料](Hadoop/Direction.md)
+
+### Hadoop 课件资料
++ [大数据概论](Hadoop/笔记/01_尚硅谷大数据技术之大数据概论.pdf)
++ [Hadoop（入门）](Hadoop/笔记/02_尚硅谷大数据技术之Hadoop（入门）V3.3.pdf)
++ [Hadoop（HDFS）](Hadoop/笔记/03_尚硅谷大数据技术之Hadoop（HDFS）V3.3.pdf)
++ [Hadoop（MapReduce）](Hadoop/笔记/04_尚硅谷大数据技术之Hadoop（MapReduce）V3.3.pdf)
++ [Hadoop（Yarn）](Hadoop/笔记/05_尚硅谷大数据技术之Hadoop（Yarn）V3.3.pdf)
++ [Hadoop（生产调优手册）](Hadoop/笔记/06_尚硅谷大数据技术之Hadoop（生产调优手册）V3.3.pdf)
++ [Hadoop（源码解析）](Hadoop/笔记/07_尚硅谷大数据技术之Hadoop（源码解析）V3.3.pdf)
 
 
 ## 数仓建设
 
 + [大数据与数仓随堂笔记](数仓建设/大数据与数仓.md)
-+ [数仓建设课件资料](数仓建设/Direction.md)
+
+#### 数仓建设课件资料
++ [1用户行为采集平台](数仓建设/笔记/尚硅谷大数据项目之尚品汇（1用户行为采集平台）V4.1.0.pdf)
++ [2业务数据采集平台](数仓建设/笔记/尚硅谷大数据项目之尚品汇（2业务数据采集平台）V4.1.0.pdf)
++ [3数据仓库系统](数仓建设/笔记/尚硅谷大数据项目之尚品汇（3数据仓库系统）V4.2.0.pdf)
++ [4可视化报表Superset](数仓建设/笔记/尚硅谷大数据项目之尚品汇（4可视化报表Superset）V4.0.pdf)
++ [5即席查询Presto&Kylin](数仓建设/笔记/尚硅谷大数据项目之尚品汇（5即席查询Presto&Kylin）V4.0.pdf)
++ [6集群监控Zabbix](数仓建设/笔记/尚硅谷大数据项目之尚品汇（6集群监控Zabbix）V4.1.pdf)
++ [7用户认证Kerberos](数仓建设/笔记/尚硅谷大数据项目之尚品汇（7用户认证Kerberos）V4.1.pdf)
++ [8安全环境实战](数仓建设/笔记/尚硅谷大数据项目之尚品汇（8安全环境实战）V4.0.pdf)
++ [9权限管理Ranger](数仓建设/笔记/尚硅谷大数据项目之尚品汇（9权限管理Ranger）V4.0.pdf)
++ [10元数据管理Atlas](数仓建设/笔记/尚硅谷大数据项目之尚品汇（10元数据管理Atlas）V4.0.pdf)
++ [11数据质量管理](数仓建设/笔记/尚硅谷大数据项目之尚品汇（11数据质量管理）V4.0.pdf)
+
 
 ## Hive
 
@@ -95,7 +116,8 @@
 + [Hive 视图和索引](BigData-Notes/notes/Hive视图和索引.md)
 + [Hive 常用 DML 操作](BigData-Notes/notes/Hive常用DML操作.md)
 + [Hive 数据查询详解](BigData-Notes/notes/Hive数据查询详解.md)
-+ [Hive 课件资料](Hive/Direction.md)
+
++ [Hive 课件资料](Hive/尚硅谷大数据技术之Hive（V4.8.0）.pdf)
 
 
 ## HBase
@@ -111,7 +133,8 @@
 + [HBase 容灾与备份](BigData-Notes/notes/Hbase容灾与备份.md)
 + [HBase的 SQL 中间层 —— Phoenix](BigData-Notes/notes/Hbase的SQL中间层_Phoenix.md)
 + [Spring/Spring Boot 整合 Mybatis + Phoenix](BigData-Notes/notes/Spring+Mybtais+Phoenix整合.md)
-+ [尚硅谷课件资料](HBase/Direction.md)
+
++ [HBase 课件资料](HBase/笔记/尚硅谷大数据技术之HBase.pdf)
 
 
 ## Flume
@@ -119,7 +142,7 @@
 + [Flume 简介及基本使用](BigData-Notes/notes/Flume简介及基本使用.md)
 + [Linux 环境下 Flume 的安装部署](BigData-Notes/notes/installation/Linux下Flume的安装.md)
 + [Flume 整合 Kafka](BigData-Notes/notes/Flume整合Kafka.md)
-+ [尚硅谷课件资料](Flume/Direction.md)
++ [Flume 课件资料](Flume/笔记/尚硅谷大数据技术之Flume.pdf)
 
 ## Kerbros
 
@@ -129,7 +152,17 @@
 ## Spark
 
 + [Spark 学习笔记](Spark/Spark学习笔记.md)
-+ [Spark 课件资料](Spark/Direction.md)
+
+#### Spark 课件资料
++ [大数据技术之SparkCore](Spark/笔记/01_尚硅谷大数据技术之SparkCore.pdf)
++ [大数据技术之SparkSql](Spark/笔记/02_尚硅谷大数据技术之SparkSql.pdf)
++ [大数据技术之SparkStreaming](Spark/笔记/03_尚硅谷大数据技术之SparkStreaming.pdf)
++ [大数据技术之Spark内核](Spark/笔记/04_尚硅谷大数据技术之Spark内核.pdf)
++ [大数据技术之Spark优化](Spark/笔记/05_尚硅谷大数据技术之Spark优化.pdf)
++ [课程内容讲解图示](Spark/笔记/06-课程内容讲解.pdf)
++ [大数据技术之Spark源码](Spark/笔记/07-尚硅谷大数据技术之Spark源码.pdf)
++ [源码讲解图示](Spark/笔记/08-源码讲解.pdf)
+
 
 #### Spark Core
 
@@ -168,19 +201,29 @@
 + [Flink 窗口模型](BigData-Notes/notes/Flink_Windows.md)
 + [Flink 状态管理与检查点机制](BigData-Notes/notes/Flink状态管理与检查点机制.md)
 + [Flink Standalone 集群部署](BigData-Notes/notes/installation/Flink_Standalone_Cluster.md)
-+ [超详细笔记](Flink/Direction.md)
+
+#### Flink 课件资料
+[Flink超神文档](Flink/笔记/Flink超神文档.pdf)
+[大数据技术之Flink（Scala版）](Flink/笔记/尚硅谷大数据之Flink（Scala版）.pdf)
+[大数据技术之Flink1.13（Java版）](Flink/笔记/尚硅谷大数据技术之Flink1.13（Java）.pdf)
 
 
 ## Doris
 
 + [官方文档](https://doris.apache.org/zh-CN/docs/dev/get-starting/what-is-apache-doris/)
-+ [Doris 课件资料](Doris/Direction.md)
++ [Doris 课件资料](Doris/笔记/尚硅谷大数据技术之Apache_Doris.pdf)
 
 
 ## CDH
 
 + [CDH官方文档](https://docs.cloudera.com/documentation/enterprise/latest/topics/introduction.html)
-+ [CDH 课件资料](CDH/Direction.md)
+
+#### CDH 课件资料
++ [大数据技术之CDH-6.3.2](CDH/笔记/尚硅谷大数据技术之CDH-6.3.2.pdf)
++ [大数据项目之CDH电商数仓（1用户行为采集平台）](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（1用户行为采集平台）V5.0.pdf)
++ [大数据项目之CDH电商数仓（2业务数据采集平台）](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（2业务数据采集平台）V5.0.pdf)
++ [大数据项目之CDH电商数仓（3电商数据仓库系统）](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（3电商数据仓库系统）V5.0.pdf)
++ [大数据项目之CDH电商数仓（4可视化报表）](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（4可视化报表）.pdf)
 
 
 -------------------

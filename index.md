@@ -192,7 +192,7 @@ Hive 主要用于大规模数据的分析、报表生成和数据探索等场景
 
 [Spring/Spring Boot 整合 Mybatis + Phoenix](BigData-Notes/notes/Spring+Mybtais+Phoenix整合.md)
 
-[尚硅谷课件资料](HBase/Direction.md)
+[HBase 课件资料](HBase/Direction.md)
 
 ### 基本介绍
 
@@ -228,7 +228,7 @@ HBase 主要用于需要快速读写和海量数据存储的场景，例如实�
 
 [Flume 整合 Kafka](BigData-Notes/notes/Flume整合Kafka.md)
 
-[尚硅谷课件资料](Flume/Direction.md)
+[Flume 课件资料](Flume/Direction.md)
 
 ### 基本介绍
 
@@ -366,7 +366,7 @@ Spark 主要应用于大规模数据处理和分析场景，例如数据清洗�
 
 [Flink Standalone 集群部署](BigData-Notes/notes/installation/Flink_Standalone_Cluster.md)
 
-[超详细笔记](Flink/Direction.md)
+[Flink 课件资料](Flink/Direction.md)
 
 
 ### 基本介绍
