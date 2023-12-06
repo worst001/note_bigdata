@@ -116,7 +116,6 @@
 + [Hive 视图和索引](BigData-Notes/notes/Hive视图和索引.md)
 + [Hive 常用 DML 操作](BigData-Notes/notes/Hive常用DML操作.md)
 + [Hive 数据查询详解](BigData-Notes/notes/Hive数据查询详解.md)
-
 + [Hive 课件资料](Hive/尚硅谷大数据技术之Hive（V4.8.0）.pdf)
 
 
@@ -133,7 +132,6 @@
 + [HBase 容灾与备份](BigData-Notes/notes/Hbase容灾与备份.md)
 + [HBase的 SQL 中间层 —— Phoenix](BigData-Notes/notes/Hbase的SQL中间层_Phoenix.md)
 + [Spring/Spring Boot 整合 Mybatis + Phoenix](BigData-Notes/notes/Spring+Mybtais+Phoenix整合.md)
-
 + [HBase 课件资料](HBase/笔记/尚硅谷大数据技术之HBase.pdf)
 
 
