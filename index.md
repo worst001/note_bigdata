@@ -1,3 +1,14 @@
+<!-- PROJECT SHIELDS -->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![Stargazers][stars-shield]][stars-url]
+<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+
+<!-- PROJECT LOGO -->
+
 # 大数据
 
 ## 基本概念
@@ -459,3 +470,15 @@ CDH（Cloudera Distribution for Hadoop）是由Cloudera提供的一个集成的�
 总的来说，CDH提供了一个完整且易于使用的大数据平台，使用户能够轻松地部署、管理和分析大规模的数据。它的灵活性和丰富的生态系统使得CDH成为企业级大数据处理的理想选择。
 
 
+<!-- links -->
+[your-project-path]:shaojintian/Best_README_template
+[contributors-shield]: https://img.shields.io/github/contributors/worst001/mkdocs_bigdata.svg?style=flat-square
+[contributors-url]: https://github.com/worst001/mkdocs_bigdata/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/worst001/mkdocs_bigdata.svg?style=flat-square
+[forks-url]: https://github.com/worst001/mkdocs_bigdata/network/members
+[stars-shield]: https://img.shields.io/github/stars/worst001/mkdocs_bigdata.svg?style=social
+[stars-url]: https://github.com/worst001/mkdocs_bigdata/stargazers
+[issues-shield]: https://img.shields.io/github/issues/worst001/mkdocs_bigdata.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/worst001/mkdocs_bigdata.svg
+[license-shield]: https://img.shields.io/github/license/worst001/mkdocs_bigdata.svg?style=flat-square
+[license-url]: https://github.com/worst001/mkdocs_bigdata/blob/main/LICENSE.txt
