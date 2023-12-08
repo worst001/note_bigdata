@@ -47,7 +47,7 @@
 
 ### 参考文档
 
-[Hadoop_随堂笔记](Hadoop/Hadoop 随堂笔记.md)
+[Hadoop_随堂笔记](Hadoop/Hadoop_随堂笔记.md)
 
 [分布式文件存储系统 —— HDFS](BigData-Notes/notes/Hadoop-HDFS.md)
 
