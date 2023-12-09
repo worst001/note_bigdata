@@ -4,7 +4,7 @@
 
 公网资料、笔记地址请访问这里 
 
-- 文档地址: [http://mkdocs.grft.top/中间件/](http://mkdocs.grft.top/大数据/)
+- 文档地址: [http://mkdocs.grft.top/大数据/](http://mkdocs.grft.top/大数据/)
 
 其他相关技术可以访问我的博客，主页地址请访问这里
 
