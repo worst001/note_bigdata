@@ -1,15 +1,3 @@
-# 大数据
-
-收录了大数据相关各类资料、笔记、手册
-
-公网资料、笔记地址请访问这里 
-
-- 文档地址: [http://mkdocs.grft.top/大数据/](http://mkdocs.grft.top/大数据/)
-
-其他相关技术可以访问我的博客，主页地址请访问这里
-
-- 访问入口：[https://mkdocs.grft.top](https://mkdocs.grft.top)
-
 <!-- PROJECT SHIELDS -->
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -20,6 +8,18 @@
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 <!-- PROJECT LOGO -->
+
+# 大数据
+
+收录了大数据相关各类资料、笔记、手册
+
+公网资料、笔记地址请访问这里 
+
+- 文档地址: [http://mkdocs.grft.top/大数据/](http://mkdocs.grft.top/大数据/)
+
+其他相关技术可以访问我的博客，主页地址请访问这里
+
+- 访问入口：[http://mkdocs.grft.top](http://mkdocs.grft.top)
 
 --------------------
 
