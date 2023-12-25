@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 <!-- PROJECT SHIELDS -->
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -9,7 +10,38 @@
 
 <!-- PROJECT LOGO -->
 
-# 大数据
+<!-- 项目LOGO -->
+<br />
+<div align="center">
+  <a href="http://mkdocs.grft.top">
+    <img src="https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/mkdocs/logo.png" alt="Logo" width="480" height="270">
+  </a>
+
+  <h3 align="center">大数据</h3>
+
+  <p align="center">
+    <br />
+    <a href="http://mkdocs.grft.top/大数据/"><strong>探索文档 »</strong></a>
+    <br />
+  </p>
+</div>
+
+<!-- 目录 -->
+<details>
+  <summary>目录</summary>
+  <ol>
+    <li><a href="#关于项目">关于项目</a></li>
+    <li><a href="#什么是大数据">什么是大数据</a></li>
+    <li><a href="#技术目录">技术目录</a></li>
+    <li><a href="#贡献">贡献</a></li>
+    <li><a href="#许可证">许可证</a></li>
+    <li><a href="#联系方式">联系方式</a></li>
+    <li><a href="#鸣谢">鸣谢</a></li>
+  </ol>
+</details>
+
+
+## 关于项目
 
 收录了大数据相关各类资料、笔记、手册
 
@@ -21,9 +53,9 @@
 
 - 访问入口：[http://mkdocs.grft.top](http://mkdocs.grft.top)
 
---------------------
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
-## 基本概念
+## 什么是大数据
 
 大数据（Big Data）指的是传统数据处理应用软件难以有效处理的大规模、高增长率和多样的信息资产。这些种类繁多的数据集通常从不同的来源收集而来，例如社交媒体、交易记录、移动应用、传感器设备和各种形式的数字化记录等。大数据的核心价值在于能从这些庞大的、复杂的数据集中提取出有用的信息，并用于决策支持、产品开发、市场分析和其他众多领域。
 
@@ -63,14 +95,13 @@
 + 风险管理和欺诈检测
 + 科学研究和气候变化分析
 
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
---------------------
-
-## 目录
+## 技术目录
 
 [目录与大纲](index.md)
 
-## Hadoop
+### Hadoop
 
 + [Hadoop_随堂笔记](Hadoop/Hadoop%20随堂笔记.md)
 + [分布式文件存储系统 —— HDFS](BigData-Notes/notes/Hadoop-HDFS.md)
@@ -82,7 +113,7 @@
 + [HDFS Java API 的使用](BigData-Notes/notes/HDFS-Java-API.md)
 + [基于 Zookeeper 搭建 Hadoop 高可用集群](BigData-Notes/notes/installation/基于Zookeeper搭建Hadoop高可用集群.md)
 
-### Hadoop 课件资料
+#### Hadoop 课件资料
 + [大数据概论](Hadoop/笔记/01_尚硅谷大数据技术之大数据概论.pdf)
 + [Hadoop（入门）](Hadoop/笔记/02_尚硅谷大数据技术之Hadoop（入门）V3.3.pdf)
 + [Hadoop（HDFS）](Hadoop/笔记/03_尚硅谷大数据技术之Hadoop（HDFS）V3.3.pdf)
@@ -92,7 +123,7 @@
 + [Hadoop（源码解析）](Hadoop/笔记/07_尚硅谷大数据技术之Hadoop（源码解析）V3.3.pdf)
 
 
-## 数仓建设
+### 数仓建设
 
 + [大数据与数仓随堂笔记](数仓建设/大数据与数仓.md)
 
@@ -110,7 +141,7 @@
 + [11数据质量管理](数仓建设/笔记/尚硅谷大数据项目之尚品汇（11数据质量管理）V4.0.pdf)
 
 
-## Hive
+### Hive
 
 + [Hive_学习笔记](Hive/Hive_学习笔记.md)
 + [Hive 简介及核心概念](BigData-Notes/notes/Hive简介及核心概念.md)
@@ -124,7 +155,7 @@
 + [Hive 课件资料](Hive/尚硅谷大数据技术之Hive（V4.8.0）.pdf)
 
 
-## HBase
+### HBase
 
 + [Hbase 简介](BigData-Notes/notes/Hbase简介.md)
 + [HBase 系统架构及数据结构](BigData-Notes/notes/Hbase系统架构及数据结构.md)
@@ -140,19 +171,19 @@
 + [HBase 课件资料](HBase/笔记/尚硅谷大数据技术之HBase.pdf)
 
 
-## Flume
+### Flume
 
 + [Flume 简介及基本使用](BigData-Notes/notes/Flume简介及基本使用.md)
 + [Linux 环境下 Flume 的安装部署](BigData-Notes/notes/installation/Linux下Flume的安装.md)
 + [Flume 整合 Kafka](BigData-Notes/notes/Flume整合Kafka.md)
 + [Flume 课件资料](Flume/笔记/尚硅谷大数据技术之Flume.pdf)
 
-## Kerbros
+### Kerbros
 
 + [Kerbros](https://app.yinxiang.com/fx/9a5651d6-50d4-4ae1-8b74-376d04157d28)
 
 
-## Spark
+### Spark
 
 + [Spark 学习笔记](Spark/Spark学习笔记.md)
 
@@ -193,7 +224,7 @@
 + [Spark Streaming 整合 Kafka](BigData-Notes/notes/Spark_Streaming整合Kafka.md)
 
 
-## Flink
+### Flink
 
 + [Flink 随堂摘要](Flink/Flink随堂笔记.md)
 + [Flink 核心概念综述](BigData-Notes/notes/Flink核心概念综述.md)
@@ -211,13 +242,13 @@
 + [大数据技术之Flink1.13（Java版）](Flink/笔记/尚硅谷大数据技术之Flink1.13（Java）.pdf)
 
 
-## Doris
+### Doris
 
 + [官方文档](https://doris.apache.org/zh-CN/docs/dev/get-starting/what-is-apache-doris/)
 + [Doris 课件资料](Doris/笔记/尚硅谷大数据技术之Apache_Doris.pdf)
 
 
-## CDH
+### CDH
 
 + [CDH官方文档](https://docs.cloudera.com/documentation/enterprise/latest/topics/introduction.html)
 
@@ -228,27 +259,42 @@
 + [大数据项目之CDH电商数仓（3电商数据仓库系统）](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（3电商数据仓库系统）V5.0.pdf)
 + [大数据项目之CDH电商数仓（4可视化报表）](CDH/笔记/尚硅谷大数据项目之CDH电商数仓（4可视化报表）.pdf)
 
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
--------------------
+<!-- 贡献 -->
+
+## 贡献
+
+贡献是使开源社区成为一个如此令人惊叹的地方，以学习、激励和创造。您所做的任何贡献都将非常感谢。
+
+如果您对使这个项目变得更好有建议，请 fork 该仓库并创建 pull request。您也可以打开一个带有“enhancement”标签的问题。不要忘记给这个项目点个星！再次感谢！
+
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
 
-## 版本控制
+<!-- 许可证 -->
+## 许可证
 
-该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
+根据 MIT 许可证进行分发。更多信息请参见 [LICENSE.txt](LICENSE)。
 
-<!-- ## 作者 -->
-<!--  -->
-<!-- [小昊子](https://github.com/worst001) -->
-<!--  -->
-<!-- 制做不易，如果有帮到你就请作者喝杯咖啡吧! -->
-<!--  -->
-<!-- ![支付宝加微信](https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8E%E6%94%AF%E4%BB%98/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%8A%A0%E5%BE%AE%E4%BF%A1.jpg) -->
-<!--  -->
-<!-- 作者无聊时做的测试游戏，完全免费哦！ -->
-<!--  -->
-<!-- ![公众号](https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8E%E6%94%AF%E4%BB%98/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%B0%8F.jpg) -->
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
-## 参考资料
+<!-- 联系方式 -->
+## 联系方式
+
+关注我: [小昊子](https://github.com/worst001)
+
+博客地址: [http://mkdocs.grft.top](http://mkdocs.grft.top)
+
+项目链接: [https://github.com/worst001/mkdocs_bigdata](https://github.com/worst001/mkdocs_bigdata)
+
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+
+## 鸣谢
+
+因为仓库与文档的数量比较大，有些借鉴资料忘了在`参考文档`部分提及原作者与原仓库，若有疏漏请告诉，我及时补上。
+
+所有引用的原资料都确认是开源认证，若有侵权请告知。
 
 [尚硅谷系列教程资料](http://www.atguigu.com/opensource.shtml)
 
@@ -258,12 +304,9 @@
 
 [https://github.com/heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes)
 
+[https://openai.com/chatgpt](https://openai.com/chatgpt)
 
-### 写在最后的话
-
-因为仓库与文档的数量比较大，有些借鉴资料忘了在`参考文档`部分提及原作者与原仓库，若有疏漏请告诉，我及时补上。
-
-所有引用的原资料都确认是开源认证，若有侵权请告知。
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
 <!-- links -->
 [your-project-path]:shaojintian/Best_README_template
