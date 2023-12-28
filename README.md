@@ -308,7 +308,8 @@
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
-<!-- links --> [your-project-path]:shaojintian/Best_README_template
+<!-- links -->
+[your-project-path]:shaojintian/Best_README_template
 [contributors-shield]: https://img.shields.io/github/contributors/worst001/note_bigdata.svg?style=flat-square
 [contributors-url]: https://github.com/worst001/note_bigdata/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/worst001/note_bigdata.svg?style=flat-square
